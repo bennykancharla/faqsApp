@@ -1,0 +1,35 @@
+/* Write your code here. */
+.main-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  height: 100vh;
+  background-color: #f1f5f8;
+}
+
+.card-bg {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 20px;
+  width: 90%;
+  background-color: #ffffff;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.heading {
+  color: #cb8805;
+  font-size: 35px;
+}
+
+.faq-list {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
